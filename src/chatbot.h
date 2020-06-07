@@ -28,10 +28,12 @@ public:
     ChatBot(std::string filename); // constructor WITH memory allocation
     ~ChatBot();
 
-    //// STUDENT CODE
-    
+    //// STUDENT CODE - RUle of Five 
+    ChatBot (const ChatBot& other);  // copy constuctor
+    ChatBot& operator=(const ChatBot& other); //copy assignment operator
+    ChatBot (ChatBot&& other);  // move constructor
+    ChatBot& operator=( ChatBot&& other); // move assignment operator
 
-    ////
     //// EOF STUDENT CODE
 
     // getters / setters

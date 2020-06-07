@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.cpp" "/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/home/gautam/projects/Memory-Management-Chatbot/src/chatgui.cpp" "/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.cpp" "/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.cpp" "/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.cpp" "/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/home/gautam/projects/memory_management_chatbot/src/chatbot.cpp" "/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/home/gautam/projects/memory_management_chatbot/src/chatgui.cpp" "/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/home/gautam/projects/memory_management_chatbot/src/chatlogic.cpp" "/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/home/gautam/projects/memory_management_chatbot/src/graphedge.cpp" "/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/home/gautam/projects/memory_management_chatbot/src/graphnode.cpp" "/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

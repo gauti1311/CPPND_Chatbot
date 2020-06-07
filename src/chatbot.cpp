@@ -33,21 +33,71 @@ ChatBot::ChatBot(std::string filename)
 ChatBot::~ChatBot()
 {
     std::cout << "ChatBot Destructor" << std::endl;
-
     // deallocate heap memory
     if(_image != NULL) // Attention: wxWidgets used NULL and not nullptr
     {
         delete _image;
-        _image = NULL;
-        
+        _image = NULL;   
     }
-    
 }
 
-//// STUDENT CODE
-////
+//// STUDENT CODE - rule of five
+ChatBot::ChatBot (const ChatBot& other)  // copy constuctor
+{ 
+    std::cout << "Copy Constructor" <<std::endl;
+    _image = new wxBitmap(*other._image);
+    _chatLogic = other._chatLogic;
+    _rootNode = other._rootNode;
+    _currentNode = other._currentNode;
+}
 
-////
+ChatBot &ChatBot::operator=(const ChatBot& other) //copy assignment operator
+{
+    if(&other != this){
+        delete _image;
+        _image = NULL;
+        _image = new wxBitmap (*other._image);
+        _chatLogic = other._chatLogic;
+        _rootNode = other._rootNode;
+        _currentNode = other._currentNode;
+    }
+    return *this;
+}
+
+ChatBot::ChatBot(ChatBot&& other) // move constructor
+{
+    std::cout<<"move constructor"<<std::endl;
+    _image = other._image;
+    _chatLogic = other._chatLogic;
+    _rootNode = other._rootNode;
+    _currentNode = other._currentNode;
+
+    _chatLogic->SetChatbotHandle(this);
+    other._image = NULL;
+    other._chatLogic = nullptr;
+    other._currentNode = nullptr;
+    other._rootNode = nullptr;
+
+}
+
+ChatBot &ChatBot::operator=(ChatBot&& other) // move assignment operator
+    {
+    if(&other != this){
+        delete _image;
+        _image = NULL;
+        _image = other._image;
+        _chatLogic = other._chatLogic;
+        _rootNode = other._rootNode;
+        _currentNode = other._currentNode;
+
+        _chatLogic->SetChatbotHandle(this);
+        other._image = NULL;
+        other._chatLogic = nullptr;
+        other._currentNode = nullptr;
+        other._rootNode = nullptr;
+    }
+    return *this;
+}
 //// EOF STUDENT CODE
 
 void ChatBot::ReceiveMessageFromUser(std::string message)

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.cpp
+/home/gautam/projects/memory_management_chatbot/src/chatbot.cpp
 iostream
 -
 random
@@ -16,15 +16,15 @@ algorithm
 ctime
 -
 chatlogic.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.h
+/home/gautam/projects/memory_management_chatbot/src/chatlogic.h
 graphnode.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.h
+/home/gautam/projects/memory_management_chatbot/src/graphnode.h
 graphedge.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.h
+/home/gautam/projects/memory_management_chatbot/src/graphedge.h
 chatbot.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.h
+/home/gautam/projects/memory_management_chatbot/src/chatbot.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.h
+/home/gautam/projects/memory_management_chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
@@ -32,7 +32,7 @@ string
 memory
 -
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatgui.cpp
+/home/gautam/projects/memory_management_chatbot/src/chatgui.cpp
 wx/filename.h
 -
 wx/colour.h
@@ -42,19 +42,19 @@ wx/image.h
 string
 -
 chatbot.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.h
+/home/gautam/projects/memory_management_chatbot/src/chatbot.h
 chatlogic.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.h
+/home/gautam/projects/memory_management_chatbot/src/chatlogic.h
 chatgui.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatgui.h
+/home/gautam/projects/memory_management_chatbot/src/chatgui.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatgui.h
+/home/gautam/projects/memory_management_chatbot/src/chatgui.h
 wx/wx.h
 -
 memory
 -
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.cpp
+/home/gautam/projects/memory_management_chatbot/src/chatlogic.cpp
 fstream
 -
 sstream
@@ -70,47 +70,47 @@ tuple
 algorithm
 -
 graphedge.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.h
+/home/gautam/projects/memory_management_chatbot/src/graphedge.h
 graphnode.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.h
+/home/gautam/projects/memory_management_chatbot/src/graphnode.h
 chatbot.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.h
+/home/gautam/projects/memory_management_chatbot/src/chatbot.h
 chatlogic.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.h
+/home/gautam/projects/memory_management_chatbot/src/chatlogic.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/chatlogic.h
+/home/gautam/projects/memory_management_chatbot/src/chatlogic.h
 vector
 -
 string
 -
 chatgui.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatgui.h
+/home/gautam/projects/memory_management_chatbot/src/chatgui.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.cpp
+/home/gautam/projects/memory_management_chatbot/src/graphedge.cpp
 graphnode.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.h
+/home/gautam/projects/memory_management_chatbot/src/graphnode.h
 graphedge.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.h
+/home/gautam/projects/memory_management_chatbot/src/graphedge.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.h
+/home/gautam/projects/memory_management_chatbot/src/graphedge.h
 vector
 -
 string
 -
 
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.cpp
+/home/gautam/projects/memory_management_chatbot/src/graphnode.cpp
 graphedge.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphedge.h
+/home/gautam/projects/memory_management_chatbot/src/graphedge.h
 graphnode.h
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.h
+/home/gautam/projects/memory_management_chatbot/src/graphnode.h
 
-/home/gautam/projects/Memory-Management-Chatbot/src/graphnode.h
+/home/gautam/projects/memory_management_chatbot/src/graphnode.h
 vector
 -
 string
 -
 chatbot.h
-/home/gautam/projects/Memory-Management-Chatbot/src/chatbot.h
+/home/gautam/projects/memory_management_chatbot/src/chatbot.h
 
 /usr/local/include/wx-3.1/wx/accel.h
 wx/defs.h

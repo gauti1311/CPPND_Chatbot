@@ -1,3 +1,3 @@
-/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir
-/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/membot.dir
-/home/gautam/projects/Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
+/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/rebuild_cache.dir
+/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/membot.dir
+/home/gautam/projects/memory_management_chatbot/build/CMakeFiles/edit_cache.dir

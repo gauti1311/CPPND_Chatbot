@@ -1,4 +1,4 @@
-# Install script for directory: /home/gautam/projects/Memory-Management-Chatbot
+# Install script for directory: /home/gautam/projects/memory_management_chatbot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gautam/projects/Memory-Management-Chatbot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gautam/projects/memory_management_chatbot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
