@@ -85,6 +85,8 @@ string
 -
 chatgui.h
 /home/gautam/projects/memory_management_chatbot/src/chatgui.h
+memory
+-
 
 /home/gautam/projects/memory_management_chatbot/src/graphedge.cpp
 graphnode.h
