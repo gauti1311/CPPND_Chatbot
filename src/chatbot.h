@@ -28,7 +28,7 @@ public:
     ChatBot(std::string filename); // constructor WITH memory allocation
     ~ChatBot();
 
-    //// STUDENT CODE - RUle of Five 
+    //// STUDENT CODE Done - RUle of Five 
     ChatBot (const ChatBot& other);  // copy constuctor
     ChatBot& operator=(const ChatBot& other); //copy assignment operator
     ChatBot (ChatBot&& other);  // move constructor

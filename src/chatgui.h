@@ -13,11 +13,11 @@ private:
     // control elements
     wxBoxSizer *_dialogSizer;
     wxBitmap _image;
-
-    //// STUDENT CODE
+ 
+    //// STUDENT CODE Done
     ////
     
-    std::unique_ptr<ChatLogic> _chatLogic;
+    std::make_unique<ChatLogic> _chatLogic;
 
     ////
     //// EOF STUDENT CODE

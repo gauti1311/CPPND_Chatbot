@@ -44,7 +44,7 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE - rule of five
+//// STUDENT CODE Done - rule of five
 ChatBot::ChatBot (const ChatBot& other)  // copy constuctor
 { 
     std::cout << "Copy Constructor" <<std::endl;

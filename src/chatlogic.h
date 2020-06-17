@@ -7,18 +7,18 @@
 #include <memory>
 
 // forward declarations
-class ChatBot;
+class ChatBot;  
 class GraphEdge;
 class GraphNode;
 
 class ChatLogic
 {
 private:
-    //// STUDENT CODE
+    //// STUDENT CODE Done
     ////
 
     // data handles (owned)  
-    std::vector<std::unique_ptr<GraphNode >> _nodes;
+    std::vector<std::make_unique<GraphNode >> _nodes;
     //std::vector<GraphEdge *> _edges;
 
     ////
