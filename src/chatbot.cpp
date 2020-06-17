@@ -47,7 +47,7 @@ ChatBot::~ChatBot()
 //// STUDENT CODE Done - rule of five
 ChatBot::ChatBot (const ChatBot& other)  // copy constuctor
 { 
-    std::cout << "Copy Constructor" <<std::endl;
+    std::cout << "ChatBot Copy Constructor" <<std::endl;
     _image = new wxBitmap(*other._image);
     _chatLogic = other._chatLogic;
     _rootNode = other._rootNode;
@@ -69,7 +69,7 @@ ChatBot &ChatBot::operator=(const ChatBot& other) //copy assignment operator
 
 ChatBot::ChatBot(ChatBot&& other) // move constructor
 {
-    std::cout<<"move constructor"<<std::endl;
+    std::cout<<" ChatBot move constructor"<<std::endl;
     _image = other._image;
     _chatLogic = other._chatLogic;
     _rootNode = other._rootNode;
@@ -85,6 +85,7 @@ ChatBot::ChatBot(ChatBot&& other) // move constructor
 
 ChatBot &ChatBot::operator=(ChatBot&& other) // move assignment operator
     {
+     std::cout << "ChatBot Move Assignment Operator" << std::endl; 
     if(&other != this){
         delete _image;
         _image = NULL;
